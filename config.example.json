@@ -1,0 +1,38 @@
+{
+  "vlans": [
+    {
+      "id": 10,
+      "name": "Пример: рабочие места",
+      "subnet": "192.168.10.0/24",
+      "enabled": true
+    },
+    {
+      "id": 20,
+      "name": "Пример: серверы",
+      "subnet": "192.168.20.0/24",
+      "enabled": true
+    },
+    {
+      "id": 30,
+      "name": "Пример: принтеры",
+      "subnet": "192.168.30.0/24",
+      "enabled": true
+    }
+  ],
+  "threads": 128,
+  "ping_timeout_ms": 700,
+  "ping_retries": 1,
+  "tcp_timeout": 0.5,
+  "port_timeout": 0.8,
+  "netbios_timeout": 0.8,
+  "snmp_community": "public",
+  "snmp_timeout": 1.0,
+  "domain": "",
+  "dns": "",
+  "ssh_user": "",
+  "resolve_names": true,
+  "tcp_discovery": false,
+  "scan_ports": false,
+  "geometry": "",
+  "theme": "dark"
+}

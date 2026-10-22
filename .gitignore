@@ -1,0 +1,22 @@
+# Данные сети — создаются программой рядом с exe, в репозиторий не попадают
+config.json
+history.json
+*.csv
+
+# Сборка
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+
+# Личные заметки о сети
+docs/
+
+# Файлы Claude и AI-инструментов (переписка, память, настройки)
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.claude-flow/
+.swarm/
+.mcp.json
